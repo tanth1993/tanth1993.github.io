@@ -102,7 +102,7 @@ h3.title {
 	
 }
 div.img-thumbnail {
-	margin: 0 auto;
+	margin: 0px 12px 12px 15px;
 	max-width: 300px;
 
 }
@@ -133,11 +133,7 @@ div.img-thumbnail {
 	padding: 15px;
 	font-size: 30px;
 }
-#hobbies>div.img-thumbnail {
-	border: 5px solid black;
-    border-radius: 50%;
-    overflow: hidden;
-}
+
 div.computer, div.instrument {
 	background-color: #f2f2f2;
 }
@@ -164,9 +160,10 @@ footer {
 	background-color: #8a8a5c;
 	margin-top: 1.2em;
 }
-div.info>ul>li {
+div.info ul li {
 	font-size: 1.3em;
 	line-height: 30px;
+	padding-left: 25px;
 }
  
 ul.contact li {
@@ -231,5 +228,8 @@ div.toTop span:hover {
 	h1.line:before, h1.line:after{
 		width: 20%;
 	}
+	.myWorks a {
+	margin: 20px 5px;	
+}
 }
 
