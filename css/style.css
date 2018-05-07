@@ -230,6 +230,9 @@ div.toTop span:hover {
 	}
 	.myWorks a {
 	margin: 20px 5px;	
-}
+	}
+	.toTop span{
+		font-size: 2.2em !important;
+	}
 }
 
