@@ -4,7 +4,7 @@ $(document).ready(function() {
 	$('.more').removeClass('clickOn');
 
 	$('.more').click(function(event) {
-		$(this).next().slideDown(500);
+		$(this).next().slideToggle(500);
 		$(this).prev().addClass('scale');
 		$(this).toggleClass('clickOn');
 	});
