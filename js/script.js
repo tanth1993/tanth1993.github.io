@@ -15,6 +15,7 @@ $(document).ready(function() {
 			$(".toTop").fadeIn();
 			};
 	});
+	new WOW().init();
 });
 
 			

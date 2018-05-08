@@ -47,6 +47,7 @@
 }
 .slideShow {
 	background-color: #caca87;
+	margin-bottom: 10px;
 }
 .carousel-inner .item img {
 	width: 100%;
@@ -101,6 +102,9 @@ h3.title {
 	padding: 15px; 
 	
 }
+#about {
+	visibility: hidden;
+}
 div.img-thumbnail {
 	margin: 0px 12px 12px 15px;
 	max-width: 300px;
@@ -134,12 +138,15 @@ div.img-thumbnail {
 	font-size: 30px;
 }
 
+
 div.computer, div.instrument {
 	background-color: #f2f2f2;
 }
 #myWorks {
 	margin-top: 40px;
 	margin-bottom: 65px;
+	visibility: hidden;
+	overflow: hidden;
 }
 .myWorks a {
 	width: 150px;
@@ -159,11 +166,13 @@ div.computer, div.instrument {
 footer {
 	background-color: #8a8a5c;
 	margin-top: 1.2em;
+	visibility: hidden;
+	overflow: hidden;
 }
 div.info ul li {
 	font-size: 1.3em;
 	line-height: 30px;
-	padding-left: 25px;
+	padding-left: 15px;
 }
  
 ul.contact li {
@@ -229,10 +238,17 @@ div.toTop span:hover {
 		width: 20%;
 	}
 	.myWorks a {
-	margin: 20px 5px;	
+		margin: 20px 5px;	
 	}
 	.toTop span{
 		font-size: 2.2em !important;
+	}
+	.description>p {
+		font-size: 1.3em;
+		line-height: 32px;
+	}
+	h2.title {
+		font-size: 2.1em;
 	}
 }
 
