@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 	$('.more').click(function(event) {
 		$(this).next().slideToggle(500);
-		$(this).prev().addClass('scale');
+		$(this).prev().toggleClass('scale');
 		$(this).toggleClass('clickOn');
 	});
 	$('.gallery').slideUp();
