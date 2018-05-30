@@ -36,7 +36,7 @@ ul.navbar-nav li.nav-item a.nav-link:hover {
 	color: #e59205;
 }
 header {
-	margin-bottom: 65px;
+	margin-bottom: 20px;
 }
 div.hero {
 	background-image: url('../images/bg_header.jpg');
@@ -303,7 +303,6 @@ footer {
 	padding-top: 100px; 
 }
 .form-group {
-	width: 600px;
 	margin: auto;
 	padding: 50px 0px;
 }
@@ -315,8 +314,8 @@ footer {
 	height: 50px;
 }
 .form-group .mail {
-	display: inline-block;
-	margin: 58px;
+	display: block;
+	margin: 35px auto;
 	background-color:  #e59205;
 	border: 1px solid  #e59205;
 	text-decoration: none;
@@ -326,7 +325,6 @@ footer {
 	font-size: 22px;
 	font-family: 'Oswald', sans-serif;
 	padding: 10px 32px;
-
 }
 .copyRight  {
 	padding: 50px 0px;
@@ -393,4 +391,150 @@ footer {
 		visibility: visible;
 	}
 
+}
+@media screen and (max-width:736px) {
+	
+	span.navbar-toggler-icon {
+		color: white;
+		border: 1px solid  white;
+	}
+	div.hero {
+		height: 400px;
+	}
+	#heading {
+		font-size: 45px;
+		left: 10%;
+		top: 30%;
+	}
+	.text {
+		font-size: 14px;
+		line-height:  35px;
+		width: 477px;
+		text-align:  center;
+	}
+	#subheading {
+		top: 47%;
+		left: 20%;
+	}
+	#btn-header {
+		top: 70%;
+		left: 40%;
+	}
+	.title {
+		font-size: 40px;
+	}
+	h2.category::before,
+	h2.category::after{
+		width: 10%;
+	}
+	.category {
+		padding-bottom: 22px;
+		padding-top: 10px;
+	}
+	#breakfast h2 {
+    width: 600px;
+    font-size: 55px;
+    margin: 50px 30px;
+    text-align: center;
+	}
+	.itemsRow {
+    margin: 15px 0;
+	}
+	.items {
+		padding: 20px 0;
+	}
+	.copyRight {
+		padding: 10px 0px;
+	}
+	.copyRight ul, li {
+		margin-right: 39px;
+	}
+	.copyRight h6 {
+		margin-left: 96px;
+	}
+}
+@media screen and (max-width:480px) {
+	span.navbar-toggler-icon {
+		color: white;
+		border: 1px solid  white;
+	}
+	div.hero {
+		height: 300px;
+	}
+	#heading {
+	font-size: 22px;
+	left: 15%;
+	top: 28%;
+	text-align: center;
+	}
+	.text {
+		font-size: 11px;
+		line-height: 24px;
+		width: 300px;
+		text-align:  center;
+	}
+	#subheading {
+		top: 39%;
+		left: 8%;
+		font-size: 11px;
+		width: 360px;
+		line-height: 22px;
+	}
+	#btn-header {
+		top: 60%;
+		left: 39%;
+		font-size: 10px;
+		padding: 9px 18px;
+	}
+	.title {
+		font-size: 22px;
+	}
+	h2.category::before,
+	h2.category::after{
+		width: 7%;
+	}
+	.category {
+		padding-bottom: 10px;
+		padding-top: 0px;
+	}
+	#breakfast h2 {
+    width: 300px;
+    font-size: 26px;
+    margin: 26px 40px;
+    text-align: center;
+ }
+	.itemsRow {
+    margin: 15px 0;
+	}
+	.items {
+		padding: 20px 0;
+	}
+	.button {
+		font-size: 10px;
+
+	}
+	.menu {
+		padding: 4px 10px;
+		margin: 0px 5px;
+	}
+	.form-group {
+		
+		text-align: center;
+	}
+	.form-group input {
+		width: 280px;
+	}
+	.form-group .mail {
+		
+		margin-bottom: -10px
+	}
+	.copyRight {
+		padding: 10px 0px;
+	}
+	.copyRight ul, li {
+		margin-right: 20px;
+	}
+	.copyRight h6 {
+		margin-left: 26px;
+	}
 }
