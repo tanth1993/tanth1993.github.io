@@ -13,6 +13,10 @@ $(document).ready(function() {
 	// $('.choose:eq(2)').click(function(event) {
 	// 	$('.products:eq(2)').slideToggle();
 	// });
+	$('.arrow').click(function(event) {
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500)
+	});
 	$('.choose').click(function(stt) {
 		var stt = $('input').index(this);
 		$('.products').eq(stt).slideToggle();
