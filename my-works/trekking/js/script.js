@@ -27,7 +27,8 @@ $(document).ready(function() {
 		$('.products').slideUp();
 		$choose.click();
 	});
-	;
+	
+
 	var $next =  $('.gallery').find('.next');
 	$next.click(function(event) {
 		event.preventDefault();		
@@ -37,6 +38,7 @@ $(document).ready(function() {
 		var $nextChild1 = $next.children('.active-sale').next();
 		var $number = $parent.find('.number');
 		var ChangeInNum = parseInt($number.text());
+		
 		 $nextChild.next().addClass('active-sale');
 		 $nextChild1.prev().removeClass('active-sale'); 
 		 if (ChangeInNum < 3) {
@@ -53,6 +55,7 @@ $(document).ready(function() {
 		var $nextChild1 = $next.children('.active-sale').next();
 		var $number = $parent.find('.number');
 		var ChangeInNum = parseInt($number.text());
+			
 			$nextChild.prev().addClass('active-sale');
 			$('.active-sale').next().removeClass('active-sale');
 		 	if (ChangeInNum > 1) {
