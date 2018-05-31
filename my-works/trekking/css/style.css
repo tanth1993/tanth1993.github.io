@@ -157,6 +157,7 @@ body {
 	height: 380px;
 	background-color: #f5f6f7;
 	border: 2px solid  #f5f6f7;
+	position: relative;
 	
 
 }
@@ -324,3 +325,69 @@ body {
 	font-size: 15px;
 	
 }
+
+@media screen and (max-width: 1024px){
+	.products .women {
+		font-size: 15px;
+	}
+	.products .men {
+		font-size: 13px;
+	}
+	.products .men::after{
+		width: 89%;
+	}
+	#home {
+		height:588px;
+	}
+}
+@media screen and (max-width: 991px){}
+@media screen and (max-width: 900px){
+	span.navbar-toggler-icon{
+		color: white;
+		border: 1px solid white;
+	}
+	#home {
+		height:374px;
+	}
+
+	li.nav-item {
+		text-align: right;	
+	}
+	a.nav-link {
+		color: #aa9b77 !important;
+	}
+	.title {
+		position: absolute;
+		top: 12%;
+		left: 17%;
+		font-size: 41px;
+	}
+	.text {
+		position: absolute;
+		top: 62%;
+		left: 23%;
+		font-size: 12px;
+	}
+	#menu {
+		padding: 20px 0px;		
+	}
+	.rightMenu button {
+		padding: 10px 15px;
+		font-size: 10px;
+	}
+	.products {
+		margin-top: 28px;
+	}
+	.gallery {
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 768px){}
+@media screen and (max-width: 667px){}
+@media screen and (max-width: 640px){}
+@media screen and (max-width: 600px){}
+@media screen and (max-width: 568px){}
+@media screen and (max-width: 480px){}
+@media screen and (max-width: 414px){}
+@media screen and (max-width: 484px){}
+@media screen and (max-width: 320px){}
