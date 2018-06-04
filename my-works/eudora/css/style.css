@@ -497,6 +497,30 @@ footer {
 		padding-bottom: 10px;
 		padding-top: 0px;
 	}
+	.smallGallery {
+		padding-bottom: 20px;
+	}
+	.smallGallery img{
+		width: 50%;	
+	}
+	.smallGallery button.menu {
+		display: block;
+		margin: 20px auto 10px;
+	}
+	.scale {
+		transform: scale(1.1);
+	}
+	.smallGallery .detail {
+		padding-bottom: 20px;
+	}
+	.smallGallery .detail h4 {
+		font-size: 40px;
+	}
+	.smallGallery .detail p {
+		font-size: 10px;
+		line-height: 25px;
+		margin-bottom: 20px;
+	}
 	#breakfast h2 {
     width: 300px;
     font-size: 26px;
