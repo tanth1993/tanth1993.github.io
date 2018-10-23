@@ -783,7 +783,8 @@ p.sub-post-text span {
 		border-bottom: 1px dotted #ccc;
 	}
 	.news-post a {
-		text-decoration: underline;
+		align-self: flex-start;
+		border-bottom: 1px solid black;
 	}
 	.news-title>a.mobile{
 		display: block;
@@ -924,6 +925,7 @@ p.sub-post-text span {
 	}
 	.title.d-f {
     	justify-content: center;
+    	flex-direction: column;
 	}
 	.title.d-f>p {
 		text-align: center;
@@ -992,7 +994,7 @@ p.sub-post-text span {
    		text-align: center;
 	}
 	.post-contact img {
-		width: 81%;
+		max-width: 81%;
 		min-height: 25px;
 		padding: 0 0 7px 0;
 	}
@@ -1051,8 +1053,8 @@ p.sub-post-text span {
 		margin: 20px 18px 0;
 	}
 	.call-footer .info img {
-    	width: 72%;
-    	/* margin-top: 32px; */
+    	max-width: 72%;
+    	
  }
 	/*end upper-footer*/
 	#main-footer {
