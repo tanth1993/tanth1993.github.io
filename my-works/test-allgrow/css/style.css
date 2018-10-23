@@ -241,7 +241,7 @@ ul li {
 .inner-wrap>a, .news-title>a{
     margin-top: 10px;
     display: inline-block;
-    padding: 1px 24px;
+    padding: 4px 24px;
     background: url(../images/arrow.png) 10px center no-repeat #0f5c9b;
 }
 .date {
@@ -304,7 +304,7 @@ ul li {
 	font-weight: bold;
 }
 .alsok-photo{
-	margin-bottom: -7px;
+	margin-bottom: -10px;
 }
 /*end alsok*/
 /*tv-post*/
@@ -893,6 +893,7 @@ p.sub-post-text span {
 	.man {
 		position: relative;
 		width: 70%;
+		z-index: -1;
 	}
 	.alsok-logo {
 	position: absolute;
