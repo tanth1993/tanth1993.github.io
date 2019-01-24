@@ -1,0 +1,75 @@
+/*------------------------------------------------------------
+index page
+------------------------------------------------------------*/
+body{
+    background-color: $bg-color;
+    padding: 20px 0;
+}
+#wrapper{
+    width: 1000px;
+    position: relative;
+    height: 100vh;
+    margin: 0 auto;
+    font-size: 2rem;
+    background: url(../img/images/bg-sand.png) repeat;
+    padding: 50px;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 40px;  
+        background: url(../img/images/bg-header.png) repeat;
+        background-size: contain;
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0; 
+        right: 0;
+        height: 15px; 
+        background: url(../img/images/long-wave2.png) repeat;
+    }
+ }
+ #ca-no{
+     position: absolute;
+     bottom: 5px;
+     left: 15px; 
+ }
+ #content{
+     background-color: $bg-color; 
+     position: relative;
+ }
+ .content__slider{ 
+    position: absolute;
+    top: 0; 
+    background-color: red; 
+    left: 0;   
+    &:nth-child(2){
+        background-color: yellow;
+    }
+    &:nth-child(3){
+        background-color: yellowgreen; 
+    }
+}
+.show{
+    z-index: 5; 
+}
+.navi{
+    position: absolute;
+    top: 45%;
+    font-size: 4.5em;
+    color: white; 
+    cursor: pointer; 
+}
+.fa-angle-left{
+    left: -50px;
+}
+.fa-angle-right{
+    right: -50px;
+}
+.is-hidden{
+    display: none; 
+}

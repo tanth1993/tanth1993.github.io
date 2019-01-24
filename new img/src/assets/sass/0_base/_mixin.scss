@@ -1,0 +1,15 @@
+
+//============================================
+// arrow + layout
+//============================================
+
+@mixin bd-rd($px) {
+	border-radius: $px;
+}
+
+@mixin arrow($code,$margin) {
+	content: $code;
+    font-weight: 900;
+    margin: $margin;
+    font-family: "Font Awesome 5 Free";
+}
