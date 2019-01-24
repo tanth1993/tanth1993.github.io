@@ -8,11 +8,11 @@ body{
 #wrapper{
     width: 1000px;
     position: relative;
-    height: 100vh;
+    height: 90vh;
     margin: 0 auto;
     font-size: 2rem;
     background: url(../img/images/bg-sand.png) repeat;
-    padding: 50px;
+    padding: 70px;
     &::before{
         content: '';
         position: absolute;
