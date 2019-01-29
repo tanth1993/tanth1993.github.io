@@ -8,11 +8,11 @@ body{
 #wrapper{
     width: 1000px;
     position: relative;
-    height: 90vh;
+    height: 100vh;
     margin: 0 auto;
     font-size: 2rem;
     background: url(../img/images/bg-sand.png) repeat;
-    padding: 70px;
+    padding: 50px;
     &::before{
         content: '';
         position: absolute;
@@ -44,8 +44,7 @@ body{
  }
  .content__slider{ 
     position: absolute;
-    top: 0; 
-    background-color: red; 
+    top: 0;
     left: 0;   
     &:nth-child(2){
         background-color: yellow;
@@ -54,6 +53,7 @@ body{
         background-color: yellowgreen; 
     }
 }
+
 .show{
     z-index: 5; 
 }
