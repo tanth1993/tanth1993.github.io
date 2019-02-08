@@ -4,11 +4,12 @@ index page
 body{
     background-color: $bg-color;
     padding: 20px 0;
+    
 }
 #wrapper{
     width: 1000px;
     position: relative;
-    height: 100vh;
+    height: 90vh;
     margin: 0 auto;
     font-size: 2rem;
     background: url(../img/images/bg-sand.png) repeat;
@@ -46,9 +47,6 @@ body{
     width: 100%;
     height: 100%;
     display: none;
-    &:nth-child(2){
-        background-color: yellow;
-    }
     &:nth-child(3){
         background-color: yellowgreen; 
     }
@@ -56,15 +54,22 @@ body{
 .content__slider__wrap{
     opacity: 0;
     transition: all 0.3s;
+    position: relative;
+    margin-top: 40px;
 }
 .content__slider__wrap.is-opa{
     opacity: 1;
-}
+} 
+
 .content__title{
-    font-size: 3em;
+    font-size: 7em;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 1em; 
     background: url(../img/images/wood.png) center no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;
+    padding: 70px;
 }
 .is-show{
     z-index: 5; 
@@ -86,4 +91,77 @@ body{
 }
 .is-hidden{
     display: none; 
+}
+// *************** slider 2 **********************
+
+
+.content__name{
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.content__info{
+    display: flex;
+}
+#avatar{
+    width: 200px;
+    height: auto;
+}
+.content__info__social{
+    margin-left: 60px;  
+    li{
+        font-size: 1.6rem;
+        font-weight: bold;   
+        margin: 12px 0px;
+
+        &::before{
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            background-color: $bg-color;
+            text-align: center;
+            display: inline-block;
+            border-radius: 50%;
+            color: white;
+        }
+        &:nth-child(1){
+            &::before{
+                @include arrow("\f073",0 10px 0 0);
+            }            
+        }
+        &:nth-child(2){
+            &::before{
+                @include arrow("\f095",0 10px 0 0);
+            }            
+        }
+        &:nth-child(3){
+            &::before{
+                @include arrow("\f2b6",0 10px 0 0);
+            }            
+        } 
+        &:nth-child(4){
+            &::before{
+                @include arrow("\f126",0 10px 0 0);
+            }            
+        }    
+    }
+}
+.content__heading{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.content__about{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content__detail{
+    p{
+        line-height: 25px;
+        font-size: 1.4rem;
+        &::before{
+            @include arrow("\f005",0 5px 0 0);
+        }
+    }
 }
