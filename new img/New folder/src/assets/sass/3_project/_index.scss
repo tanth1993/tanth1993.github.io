@@ -218,3 +218,25 @@ body{
     }
 }
 // ************* end slider 3 *****************
+// *************  slider 4 *****************
+.content__grid{
+    flex-flow: row wrap; 
+    justify-content: space-between;   
+}
+.content__grid__img{
+    flex-basis: 25%;
+    text-align: center;  
+    margin: 10px 0;   
+}
+.content__grid__img__link{
+    padding: 10px;
+    display: inline-block;         
+    background: url(../img/images/wood.png) center no-repeat;
+    img{
+        width: 150px;    
+        height: 200px;  
+    }
+}
+
+// ************* end slider 4 *****************
+

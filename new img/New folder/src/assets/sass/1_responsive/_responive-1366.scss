@@ -1,0 +1,50 @@
+/*------------------------------------------------------------
+RESPONSIVE 1366
+------------------------------------------------------------*/
+@media screen and (max-width: 1367px){
+    .content__title{
+        font-size: 6em;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    
+    #avatar{
+        width: 120px;
+    }
+    .content__info__social{
+        margin-left: 40px;  
+        li{
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 7px 0px;
+            &::before{
+                width: 20px;
+                height: 20px;
+                line-height: 20px;
+            }
+        }
+    }
+    .content__heading{
+        font-size: 2rem;   
+        padding: 7px 50px;  
+        background-size: contain;
+    }
+    .content__company{
+        padding: 10px 0;      
+    }
+    .content__company__under{
+        &__left{
+            img{
+                width: 90px;                
+            }
+        }
+    }
+    .content__grid__img__link{  
+        img{
+            width: 100px;
+            height: 125px;     
+        }
+    }
+
+}
