@@ -10,7 +10,6 @@ $(document).ready(function() {
 			$('.content__slider.is-show > .content__slider__wrap').addClass('is-opa');
 		}, 300);
 	}
-	
 	$('.fa-angle-right').click(function(){		
 		$('.content__slider.is-show').next('.content__slider').addClass('is-show');
 		$('.content__slider.is-show').prev('.content__slider.is-show').removeClass('is-show');
