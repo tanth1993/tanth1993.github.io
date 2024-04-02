@@ -7,6 +7,8 @@ const taxi = require('../assets/images/p-taxi.JPG');
 const games = require('../assets/images/p-games.jpg');
 const lmht = require('../assets/images/p-lmht.jpg');
 const petProject = require('../assets/images/pet-project.png');
+const chartJs = require('../assets/images/chartjs.png');
+const nextJs = require('../assets/images/nextjs.png');
 
 const skillSets = [
     {
@@ -48,42 +50,59 @@ const goals = [
     'learn about  SSR such as <b>NextJs</b>',
     'learn more about Back-end such as <b>Node.js, rabbitMQ, kafka</b>'
 ]
+{/* <b></b> */ }
 const aboutMe = [
-    'I am a <b>Front-End developer</b>',
-    "I've worked for <b>2+ years</b>",
-
+    'I has been working as Frontend developer since 2019. I develop not only UI/UX on <b>web application</b> but also on the <b>mobile app</b>. Besides, I enjoy supporting build some <b>APIs</b> for Backend team. I am eager to learn and share new things to other members.',
 ]
 const companies = [
     {
         name: 'Haravan',
-        workDate: 'July/2019 - now',
+        workDate: 'May/2019 - now',
         image: hrv,
         link: 'https://www.haravan.com',
         details: [
-            'module <b>IC</b>: develop screens, forums, layout, voting',
-            'module <b>BMS</b>: develop tables, <b>intergrate</b> with E-form, use <b>mongodb aggregate to Charts Report</b>',
-            'module <b>Tickets</b>: develop from scratch, admin page, reports, support <b>back-end with CRUD actions</b>',
-        ]
-    },
-    {
-        name: 'Allgrowlabo Co,Ltd',
-        workDate: 'November/2018 - December/2018',
-        image: allgrow,
-        link: 'https://allgrow-labo.jp',
-        details: [
-            'Take <b>PSD file</b> from Japanese team',
-            'Convert <b>PSD Design</b> to <b>HTML template</b>',
-            'Make <b>Responsive Layout</b>',
-            'Convert HTML template to <b>WordPress Theme</b>',
-            'Use HTML5, CSS3, Jquery to make <b>animations/keyframes</b>',
+            'Projects are microservices and based on <b>C#</b>, <b>Typescript</b> and <b>MongoDB</b>',
+            `<b>Customer Tickets</b>: Managing tickets and records from internal and external resources 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Optimise source code to reduce build time
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Implement real-time messages
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Refactor class component to react hook and create custom hooks
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Develop the module in mobile app
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Create basic APIs and apply graphQL
+            `,
+
+            `<b>BMS (budget management system)</b>: Allocating money by months, quarters or year
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Render the tree view company
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Refactor nested loop to hash map flow
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Handle data in server side and visualize data by charts(bar,line,pie)
+            `,
+
+            `<b>Eform (Electric form)</b>: Managing flows, processing forms
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Create drag-drog page builder 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Support BE team for developing RESTful API 
+            `,
+
+            `<b>Report Analytics</b>: Supporting to build report builders
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- query data from clickhouse and export excel on client 
+            `
+            ,
         ]
     },
 ]
 const projects = [
     {
+        imgLink: chartJs,
+        link: 'https://report-client.vercel.app/overview',
+        detail: 'chart.js, @visx/visx, victory, Recharts, Nodejs, MongoDB Atlas',
+    },
+    {
         imgLink: petProject,
         link: 'https://pet-project-755dc.web.app/',
         detail: 'React, firebase',
+    },
+    {
+        imgLink: nextJs,
+        link: 'https://demo-nextjs-rouge.vercel.app/',
+        detail: 'Nextjs, Nodejs, MongoDB Atlas, tailwindCSS, daisyUI',
     },
     {
         imgLink: childCenter,
